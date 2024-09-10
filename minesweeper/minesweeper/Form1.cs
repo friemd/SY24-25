@@ -69,7 +69,7 @@ namespace minesweeper
             if (e.Button == MouseButtons.Right)
             {
                 if (!flag)
-                    b1.BackgroundImage = pictureBox2.Image;
+                    b1.BackgroundImage = picture2.Image;
                 else
                     b1.BackgroundImage = null;
                 flag = !flag;
@@ -77,7 +77,7 @@ namespace minesweeper
             }
             if (e.Button == MouseButtons.Left)
             {
-                 b1.BackgroundImage = pictureBox1.Image;
+                 b1.BackgroundImage = picture1.Image;
             }
                 
 
@@ -85,7 +85,7 @@ namespace minesweeper
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Tile t = new Tile();
+            
             
         }
     }

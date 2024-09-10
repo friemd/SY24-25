@@ -93,8 +93,8 @@
             this.b42 = new System.Windows.Forms.Button();
             this.b51 = new System.Windows.Forms.Button();
             this.b41 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picture1 = new System.Windows.Forms.PictureBox();
+            this.picture2 = new System.Windows.Forms.PictureBox();
             this.b80 = new System.Windows.Forms.Button();
             this.b70 = new System.Windows.Forms.Button();
             this.b79 = new System.Windows.Forms.Button();
@@ -131,8 +131,8 @@
             this.b86 = new System.Windows.Forms.Button();
             this.b95 = new System.Windows.Forms.Button();
             this.b85 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture2)).BeginInit();
             this.SuspendLayout();
             // 
             // b1
@@ -775,25 +775,25 @@
             this.b41.UseVisualStyleBackColor = true;
             this.b41.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button49_MouseDown);
             // 
-            // pictureBox1
+            // picture1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(645, 271);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 123);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 64;
-            this.pictureBox1.TabStop = false;
+            this.picture1.Image = ((System.Drawing.Image)(resources.GetObject("picture1.Image")));
+            this.picture1.Location = new System.Drawing.Point(543, 109);
+            this.picture1.Name = "picture1";
+            this.picture1.Size = new System.Drawing.Size(121, 123);
+            this.picture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture1.TabIndex = 64;
+            this.picture1.TabStop = false;
             // 
-            // pictureBox2
+            // picture2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(56, 295);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 99);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 65;
-            this.pictureBox2.TabStop = false;
+            this.picture2.Image = ((System.Drawing.Image)(resources.GetObject("picture2.Image")));
+            this.picture2.Location = new System.Drawing.Point(543, 238);
+            this.picture2.Name = "picture2";
+            this.picture2.Size = new System.Drawing.Size(121, 126);
+            this.picture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture2.TabIndex = 65;
+            this.picture2.TabStop = false;
             // 
             // b80
             // 
@@ -1160,8 +1160,8 @@
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picture2);
+            this.Controls.Add(this.picture1);
             this.Controls.Add(this.b74);
             this.Controls.Add(this.b64);
             this.Controls.Add(this.b73);
@@ -1229,8 +1229,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1301,8 +1301,8 @@
         private System.Windows.Forms.Button b42;
         private System.Windows.Forms.Button b51;
         private System.Windows.Forms.Button b41;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picture1;
+        private System.Windows.Forms.PictureBox picture2;
         private System.Windows.Forms.Button b80;
         private System.Windows.Forms.Button b70;
         private System.Windows.Forms.Button b79;
